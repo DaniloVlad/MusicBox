@@ -16,6 +16,12 @@ root@server:~$ cd bin && java main.Main
 3) Enjoy the mario overlord theme
 4) [Sample Output](sampleOutput)
 
+# Writing your own note sheet
+
+1) First letter is the note beat duration: Whole note: W, Half note: H, Quarter note: Q, Eigth note: E
+2) This is followd by either a note [A-G] or an octive modifier [+/-][1-4] such that -1A means A3, A means A4, +1A means A5,
+3) Rests are treated like notes without octive modifiers. Half Rest: HR, quarter rest: QR...
+
 # Further Development:
 
 1) Implement harmoics 
