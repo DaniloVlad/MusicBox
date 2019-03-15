@@ -1,5 +1,7 @@
 # MusicBox
 
+Creates a sound depending on sample rate, sample size, frequency and duration.  Handles byte-order if the sample size is larger than 8 bits.
+
 # Usage
 
 1) Using Eclipse just run it.
