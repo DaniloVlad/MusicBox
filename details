@@ -1,0 +1,11 @@
+Sampled Audio: 
+	Samples: Successive snapshots of a signal (sound-wave in audio)
+	Sample Rate: The rate at which an analog signals amplitude is recorded
+				 ie: 44100 samples/s or 44.1KHz
+	Sample Size: The number of bits per sample
+				 ie: 16-bit 
+	How it works: The audio is recorded on a microphone, which encodes sound pressure
+		into analog electrical signals. An analog-to-digital converter changes
+		the signals to samples. 
+	Java Library: javax.sound.sampled.spi 
+	
