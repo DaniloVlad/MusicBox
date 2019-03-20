@@ -25,14 +25,15 @@ Creates a sound depending on sample rate, sample size, frequency and duration.  
     root@server:~$ ./run 
     Usage: ./run <file-name>
     Where <file-name> is present in /home/danilo/Documents/javaMusic/MusicBox
-    root@server:~$ ./run mario
+    root@server:~$ ./run samples/mario
     Finished Generating Music: 7.8125 s
     Playing: Tone(Note, Frequency, Duration) :: (E, 659.2551138257398, 0.0625)
     Playing: Tone(Note, Frequency, Duration) :: (E, 659.2551138257398, 0.0625)
+    ...
     ```
 
 3) Enjoy the mario overlord theme
-4) [Sample Output](sampleOutput)
+4) [Sample Output](samples/sampleOutput)
 
 # Writing your own note sheet
 
