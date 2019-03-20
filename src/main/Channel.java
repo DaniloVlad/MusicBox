@@ -62,7 +62,7 @@ public class Channel {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		} 
 		
 		return 0;
 	}
