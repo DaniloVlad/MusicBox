@@ -19,13 +19,16 @@ public class Main {
 		FileReader reader;
 		BufferedReader buf;
 		ArrayList<Tone> music;
-		String file = "./data";
+		String file;
 		int noteSig = 2;
 		int bpm = 120;
 		double barDuration = ((double) 60 / (bpm * noteSig));
 		
 		if(args.length >= 1) file = args[0];
-		
+		else {
+			System.out.println("No file was supplied!");
+			return;
+		}
 		try {
 			main = new Channel();
 			reader = new FileReader(file);
