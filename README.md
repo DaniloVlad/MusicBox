@@ -4,14 +4,32 @@ Creates a sound depending on sample rate, sample size, frequency and duration.  
 
 # Usage
 
-1) Using Eclipse just run it.
-2) Using terminal
+1) Using Eclipse edit the run config and add the name of the file to the args. Then run it.
+2) Using terminal:
 
-```
-root@server:~$ javac src/*/*.java -d bin/
-root@server:~$ cp data bin/data
-root@server:~$ cd bin && java main.Main
-```
+    i) Set the priviledges for the scripts
+
+    ```sh-session
+    root@server:~$ chmod +x run compile
+    ```
+
+    ii) Compile the source file
+
+    ```sh-session
+    root@server:~$ ./compile
+    ```
+
+    iii) Run the program
+
+    ```sh-session
+    root@server:~$ ./run 
+    Usage: ./run <file-name>
+    Where <file-name> is present in /home/danilo/Documents/javaMusic/MusicBox
+    root@server:~$ ./run mario
+    Finished Generating Music: 7.8125 s
+    Playing: Tone(Note, Frequency, Duration) :: (E, 659.2551138257398, 0.0625)
+    Playing: Tone(Note, Frequency, Duration) :: (E, 659.2551138257398, 0.0625)
+    ```
 
 3) Enjoy the mario overlord theme
 4) [Sample Output](sampleOutput)
